@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sejarah Revolusi Industri</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f1ea;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+
+        .bg-custom {
+            background-color: #8b4513 !important;
+        }
+
+        .navbar-nav .nav-link:hover {
+            font-weight: bold;
+            position: sticky;
+        }
+
+        .timeline {
+            position: relative;
+            padding: 20px;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            width: 4px;
+            background: #8b4513;
+            height: 100%;
+            transform: translateX(-50%);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 50px;
+            width: 50%;
+            padding: 20px;
+            background: #e0c097;
+            border-radius: 10px;
+        }
+
+        .timeline-item:nth-child(odd) {
+            left: 0;
+        }
+
+        .timeline-item:nth-child(even) {
+            left: 50%;
+            transform: translateX(-10%);
+        }
+
+        .timeline-item img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .sumber-cus a {
+            color: #16100b;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .sumber-foto figcaption>a {
+            text-decoration: none;
+            color: #111111;
+        }
+
+        .sumber-foto figcaption>a :hover {
+            text-decoration: underline;
+            color: rgb(24, 21, 235);
+        }
+
+        footer {
+            background-color: #333;
+
+        }
+
+        @media (max-width: 768px) {
+            .timeline-item {
+                width: 100%;
+                left: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-danger bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Revolusi Industri</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#pengantar">Pengantar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sejarah">Sejarah</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kesimpulan">Kesimpulan</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-custom text-white text-center py-5">
+        <h1>Sejarah Revolusi Industri</h1>
+    </header>
+
+    <section id="pengantar" class="container my-5" data-aos="fade-up">
+        <h2 class="text-center">Pengantar</h2>
+        <p class="h5">Revolusi Industri adalah perubahan besar dalam cara produksi dari manual ke mesin yang terjadi
+            sejak abad ke-18. Revolusi ini membawa dampak besar dalam kehidupan sosial, ekonomi, dan politik di seluruh
+            dunia.</p>
+            <figure class="sumber-foto">
+        <img src="all.jpeg" alt="Spinning Jenny" class="img-fluid">
+        <figcaption>sumber : <a href="https://images.app.goo.gl/R5RxHY6v6AC4QAcy7"><i>Talenta.co</i></a></figcaption>
+    </figure>
+    </section>
+
+    <section id="sejarah" class="container my-5">
+        <h2 class="text-center">Sejarah Revolusi Industri</h2>
+        <div class="timeline">
+            <div class="timeline-item" data-aos="fade-right">
+                <h4>Revolusi Industri 1.0 (1760 - 1840)</h4>
+                <p>Revolusi Industri 1.0 terjadi pada abad ke-18 (1760–1840) dengan penemuan mesin uap oleh James Watt
+                    pada tahun 1776 di Inggris, membawa perubahan besar di berbagai sektor. Mesin uap berbahan bakar
+                    batu bara ini digunakan terutama untuk produksi tekstil di Inggris.</p>
+                <p> Seiring waktu, mesin uap berkembang di berbagai industri lain seperti pertanian, pertambangan,
+                    transportasi, dan manufaktur, menggantikan tenaga manual.Dimulai dengan mekanisasi produksi
+                    menggunakan tenaga air dan uap.</p>
+                <p class="h5">Dampak Revolusi industri 1.0</p>
+                <ul>
+                    <li>Memproduksi barang menjadi lebih cepat,mudah dan efisien</li>
+                    <li>Perkembangan industri dan urbanisasi</li>
+                    <li>Bisnis transportasi semakin maju</li>
+                </ul>
+                <figure class="sumber-foto">
+                    <img src="v01.jpeg" alt="Revolusi Industri 1.0">
+                    <figcaption>Sumber : <a href="https://images.app.goo.gl/3J1VyJfxLh5WVpty5"><i>Ajaib.co</i></a></figcaption>
+                </figure>   
+            </div>
+            <div class="timeline-item" data-aos="fade-left">
+                <h4>Revolusi Industri 2.0 (1870 - 1914)</h4>
+                <p>evolusi Industri 2.0 terjadi pada awal abad ke-19 (1870-an) dan berfokus pada efisiensi mesin di
+                    setiap lini produksi (Assembly Line) berkat ditemukannya tenaga listrik. Misalnya, produksi mobil
+                    secara massal mulai memanfaatkan lini produksi pada tahun 1913, di mana proses perakitan menjadi
+                    lebih efisien dengan konsep Assembly Line menggunakan Conveyor Belt.</p>
+                <p>Ditandai dengan produksi massal dan penggunaan listrik dalam industri.</p>
+                <p class="h5">Dampak Revolusi industri 2.0</p>
+                <ul>
+                    <li>Pesawat terbang dan mobil mulai banyak dimanfaatkan sebagai alat transportasi</li>
+                    <li>Penemuan arus listrik AC dan DC</li>
+                    <li>Pesawat, tank, maupun senjata diproduksi secara massal</li>
+                    <li>Teknologi berbasis listrik mulai digunakan di bidang telekomunikasi</li>
+                </ul>
+                <figure class="sumber-foto">
+                    <img src="v2.jpeg" alt="Revolusi Industri 2.0">
+                    <figcaption>Sumber :<a href="https://images.app.goo.gl/Vmgazqnhu8GBFNQN7"><i>Ruang laptop</i></a></figcaption>
+                </figure>
+            </div>
+            <div class="timeline-item" data-aos="fade-right">
+                <h4>Revolusi Industri 3.0 (1950 - Sekarang)</h4>
+                <p>Revolusi Industri 3.0 terjadi pada awal abad ke-20 (1970-an) dan dipicu oleh perkembangan mesin-mesin
+                    pintar (Komputer & Software) berbasis teknologi otomasi yang perlahan menggantikan peran manusia di
+                    lapangan.</p>
+                <p>Digitalisasi dimulai khususnya di dunia industri, di mana penggunaan komputer mulai menggantikan
+                    tugas-tugas yang sebelumnya dilakukan oleh manusia.Perkembangan komputer dan otomatisasi dalam
+                    produksi.</p>
+                <p class="h5">Dampak Revolusi industri 3.0</p>
+                <ul>
+                    <li>Perubahan pola relasi dan komunikasi</li>
+                    <li>Kelas menengah yang berkembang</li>
+                    <li>Pencemaran udara, air, dan tanah</li>
+                    <li>Munculnya berbagai perusahaan besar, kota-kota industri, dan lapangan kerja baru</li>
+                </ul>
+                <figure class="sumber-foto">
+                    <img src="v03.jpeg" alt="Revolusi Industri 3.0">
+                    <figcaption>Sumber : <a href="https://images.app.goo.gl/s8pfMr7YDnzdaUVQ8"><i>SUmber : Facebook</i></a></figcaption>
+            </div>
+            <div class="timeline-item" data-aos="fade-left">
+                <h4>Revolusi Industri 4.0 (Masa Kini)</h4>
+                <p>Revolusi Industri 4.0 adalah era saat ini, di mana teknologi seperti internet, komputerisasi,
+                    microchip, IOT, kecerdasan buatan (AI), machine learning, deep learning, cloud analytics, hingga
+                    kendaraan otonom merevolusi setiap proses produksi hingga distribusi, dengan fokus pada
+                    keberlanjutan (Sustainability).</p>
+                <p>Teknologi baru seperti ojek online, tarik tunai lewat ponsel, hingga warung digital bermunculan di
+                    era ini.Era digitalisasi, Internet of Things (IoT), dan kecerdasan buatan.</p>
+                <p class="h5">Dampak Revolusi industri 4.0</p>
+                <ul>
+                    <li>Metode pembelajaran berubah dari tatap muka menjadi berbasis teknologi dan fleksibel</li>
+                    <li>Meningkatkan efisiensi dan produktivitas</li>
+                    <li>Menciptakan pekerjaan baru dengan kualifikasi yang berbeda</li>
+                    <li>Berdampak signifikan pada berbagai sektor, termasuk manufaktur, logistik, kesehatan, energi, dan
+                        pertanian</li>
+                </ul>
+                <figure class="sumber-foto">
+                    <img src="v4.jpeg" alt="Revolusi Industri 4.0">
+                    <figcaption>Sumber : <a href="https://images.app.goo.gl/NKD5nZoiZe7GmP3t6"><i>uniar.ac.id</i></a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section id="kesimpulan" class="container my-5 text-center" data-aos="fade-up">
+        <h2 class="text-center">Kesimpulan dan Penutup</h2>
+        <p>Revolusi Industri telah membawa banyak perubahan dalam berbagai aspek kehidupan. Perkembangan teknologi terus
+            mendorong inovasi yang lebih maju dan mempengaruhi cara kita bekerja dan hidup.</p>
+
+    </section>
+
+    <section id="sumber" class="container my-5 text-center" data-aos="fade-up">
+        <h2 class="text-center">Sumber</h2>
+        <p>Berikut adalah beberapa sumber yang digunakan dalam penyusunan artikel ini:</p>
+        <ul class="list-unstyled sumber-cus">
+            <li><a href="https://tirto.id/dampak-revolusi-industri-40-terhadap-pendidikan-tenaga-kerja-gPaK#google_vignette"
+                    target="_blank">tirtio.id</a></li>
+            <li><a href="https://id.wikipedia.org/wiki/Revolusi_Industri#:~:text=Singkatnya%2C%20revolusi%20industri%20adalah%20masa,dan%20menyebar%20ke%20seluruh%20dunia."
+                    target="_blank">wikipedia.com</a></li>
+            <li><a href="https://www.detik.com/edu/detikpedia/d-6438001/revolusi-industri-sejarah-dan-perkembangan-revolusi-industri-1-0-hingga-4-0"
+                    target="_blank">Detik.com</a></li>
+        </ul>
+    </section>
+
+    <section id="kata-penutup" class="container my-5 text-center" data-aos="fade-up">
+        <h2 class="text-center">Kata Penutup</h2>
+        <p>Terima kasih telah membaca artikel ini. Kami berharap informasi yang disajikan dapat memberikan wawasan dan
+            pemahaman yang lebih baik tentang sejarah dan dampak Revolusi Industri.</p>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Sejarah Revolusi Industri | Fajar Kusuma</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
